@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/ng4-complete-guide",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -24,4 +24,4 @@ In addition to being able to manage recipes, users can also add all the ingredie
 
 ### Deployment
 
-This application is yet to be deployed, but it will be available (publicly hosted) some time later this month (August 2019)
+This application was first deployed at https://ng-course-recipe-book-15925.firebaseapp.com/recipes using firebase hosting on August 18, 2019. 
