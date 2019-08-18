@@ -1,27 +1,21 @@
-# Ng4CompleteGuide
+# Recipe-Book
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+This project was created as an angular demo application for recipe management using angular 8 and firebase (for authentication and realtime database)
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Authentication
 
-## Code scaffolding
+The authentication in this project is done by the Firebase Auth REST API, allowing users to sign up using their email and password, logout, and login automatically using the browser's local storage. Once a user is authenticated, they will be able to edit and access the Firebase Realtime Database, where recipes are stored.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Recipes
 
-## Build
+Once a user is authenticated, recipes can be added, deleted, or edited using the user friendly recipes page. There, users can also save and fetch data to and from the realtime database.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Shopping List
 
-## Running unit tests
+In addition to being able to manage recipes, users can also add all the ingredients of one recipe into their shopping list, which can be managed just like the recipes. Ingredients can be deleted, added, and edited.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Deployment
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This application is yet to be deployed, but it will be available (publicly hosted) some time later this month (August 2019)
